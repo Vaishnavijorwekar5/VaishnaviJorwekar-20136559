@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\Users\vaishnavi.jorwekar\IGTExam\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3139461619.index
+3629813240.index
+4212354093.index
+168802185.index
+3434004936.index
+1172515976.index
+2942156142.index

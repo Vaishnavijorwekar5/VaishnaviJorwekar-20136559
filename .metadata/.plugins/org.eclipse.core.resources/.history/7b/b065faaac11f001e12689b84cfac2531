@@ -1,0 +1,5 @@
+package com;
+abstract class Library
+{
+	String name;
+	int age;

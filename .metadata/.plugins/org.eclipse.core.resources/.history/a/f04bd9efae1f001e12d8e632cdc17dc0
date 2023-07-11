@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<div style = "text-align:center">
+   <form action  = Demo >
+   SID :<input type = "text" name = "uSid"><br>
+   SName :<input type = "text" name = "uSname"><br>
+   Phone :<input type = "text" name = "uPhone"><br>
+   Marks :<input type = "text" name = "uMarks"><br>
+   Branch :<input type = "text" name = "uBranch><br>
+    Submit :       <input type = "submit" value = "click">
+
+
+ </form>
+</div>
+
+
+</body>
+</html>

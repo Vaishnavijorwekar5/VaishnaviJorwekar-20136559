@@ -1,0 +1,51 @@
+package com;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+
+import org.hsqldb.lib.Iterator;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		
+		ApplicationContext contex = new ClassPathXmlApplicationContext("applicationContext.xml");
+		
+		Person p = (Person)contex.getBean("per");
+		
+		String[] hb = p.getHobbies();
+		
+		System.out.println("1st Sem Subject are");
+		for(String s: hb) {
+			System.out.println(" "+s);	
+		}
+		
+		ArrayList<String> em = p.getEmails();
+		System.out.println("Emails are....");
+		for(String s: em) {
+			System.out.println(" "+s);	
+		}
+		
+		HashSet<String>ph = p.getPhone();
+		System.out.println("Phones are....");
+		for(String s: ph) {
+			System.out.println(" "+s);	
+		}
+		
+		HashMap<String,String> ed = p.getEducation();
+		System.out.println("Education details  are....");
+		Iterator it =  (Iterator) ed.entrySet().iterator();
+		while(it.hasNext()) {
+			System.out.println(" "+it.next());
+			
+		}
+
+
+
+
+	}
+
+}

@@ -1,0 +1,29 @@
+package com;
+
+public class Employee {
+	private int  EmpID;
+	private String  EmpName;
+	
+	
+	public int getEmpID() {
+		return EmpID;
+	}
+	public void setEmpID(int empID) {
+		EmpID = empID;
+	}
+	public String getEmpName() {
+		return EmpName;
+	}
+	public void setEmpName(String empName) {
+		EmpName = empName;
+	}
+	
+	public void display() {
+        System.out.println(EmpID+" "+EmpName);
+	
+	}
+
+	
+	
+
+}

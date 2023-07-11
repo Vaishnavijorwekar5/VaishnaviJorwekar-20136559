@@ -1,0 +1,43 @@
+package com;
+import javax.persistence.Entity;
+import org.hibernate.annotations.Table;
+
+
+public class customer {
+	
+	private int CID;
+	private String CNAME;
+	private String PLACE;
+	private String PAN;
+	
+	
+	public int getCID() {
+		return CID;
+	}
+	public void setCID(int cID) {
+		CID = cID;
+	}
+	public String getCNAME() {
+		return CNAME;
+	}
+	public void setCNAME(String cNAME) {
+		CNAME = cNAME;
+	}
+	public String getPLACE() {
+		return PLACE;
+	}
+	public void setPLACE(String pLACE) {
+		PLACE = pLACE;
+	}
+	public String getPAN() {
+		return PAN;
+	}
+	public void setPAN(String pAN) {
+		PAN = pAN;
+	}
+	
+	
+	
+	
+
+}
